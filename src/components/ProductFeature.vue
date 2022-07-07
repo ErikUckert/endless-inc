@@ -15,7 +15,7 @@ export default {};
         </div>
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
           <div class="px-6 py-12 md:px-12">
-            <h2 class="text-3xl font-bold mb-6 pb-2">Top quality product</h2>
+            <h2 class="text-3xl font-bold mb-6 pb-2">Why do we use carbon fiber?</h2>
             <p class="text-gray-500 mb-6 pb-2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. A soluta corporis
               voluptate ab error quam dolores doloremque, quae consectetur.
