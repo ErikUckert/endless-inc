@@ -5,12 +5,16 @@ import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue'
 import HeroPage from './components/HeroPage.vue'
 import Footy from './components/Footy.vue'
+import TeamSection from './components/TeamSection.vue'
+import ProductFeature from './components/ProductFeature.vue'
 </script>
 
 <template>
 
   <NavBar></NavBar>
   <HeroPage></HeroPage>
+  <ProductFeature></ProductFeature>
+  <TeamSection></TeamSection>
   <Footy></Footy>
 
 

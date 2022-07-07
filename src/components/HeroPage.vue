@@ -2,8 +2,8 @@
     export default {};
 </script>
 <template>
-      <div class="h-screen">
-        <section class="mb-40 overflow-hidden">
+      <div class="">
+        <section class=" overflow-hidden">
           <div class="relative overflow-hidden bg-no-repeat bg-cover" style="background-position: 50%; height: 600px;" :style="headerStyle">
             <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.5);">
               <div class="flex justify-center items-center h-full">
