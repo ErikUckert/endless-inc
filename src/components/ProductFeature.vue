@@ -10,7 +10,7 @@ export default {};
     <div class="block rounded-lg shadow-lg bg-white">
       <div class="flex flex-wrap items-stretch">
         <div class="basis-auto block lg:flex w-full lg:w-6/12 xl:w-4/12">
-          <img src="../assets/carbon_fiber3.JPG" alt="Trendy Pants and Shoes"
+          <img src="../assets/carbon_fiber3.jpg" alt="Trendy Pants and Shoes"
             class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg object-cover" />
         </div>
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
