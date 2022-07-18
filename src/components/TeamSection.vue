@@ -66,7 +66,7 @@
       <div class="mb-6 lg:mb-0">
         <div class="bg-white block rounded-lg shadow-lg">
           <div class="relative overflow-hidden bg-cover">
-            <img src="../assets/team_stephan Kopie.png" class="w-full rounded-t-lg" />
+            <img src="../assets/team_stephan_standard.png" class="w-full rounded-t-lg" />
             <a href="#!">
               <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
             </a>
