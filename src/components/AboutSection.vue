@@ -10,7 +10,7 @@ export default {};
     <div class="block rounded-lg shadow-lg bg-white">
       <div class="flex flex-wrap items-stretch">
         <div class="basis-auto block lg:flex w-full lg:w-6/12 xl:w-4/12">
-          <img src="../assets/carbon_fiber3.jpg" alt="Trendy Pants and Shoes"
+          <img src="../assets/shaft.png" alt="Trendy Pants and Shoes"
             class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg object-cover" />
         </div>
         <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
@@ -26,11 +26,6 @@ export default {};
               production by providing printing systems and the right material for
               the job.
             </p>
-
-            <button type="button"
-              class="inline-block px-7 py-3 bg-gray-800 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out">
-              Check out our products!
-            </button>
           </div>
         </div>
       </div>

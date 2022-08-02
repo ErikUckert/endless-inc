@@ -6,15 +6,17 @@ import NavBar from './components/NavBar.vue'
 import HeroPage from './components/HeroPage.vue'
 import Footy from './components/Footy.vue'
 import TeamSection from './components/TeamSection.vue'
-import ProductFeature from './components/ProductFeature.vue'
+import AboutSection from './components/AboutSection.vue'
+import ProductSection from './components/ProductSection.vue'
 </script>
 
 <template>
 
   <NavBar></NavBar>
   <HeroPage></HeroPage>
-  <ProductFeature></ProductFeature>
+  <ProductSection></ProductSection>
   <TeamSection></TeamSection>
+  <AboutSection></AboutSection>
   <Footy></Footy>
 
 
