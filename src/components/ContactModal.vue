@@ -6,9 +6,6 @@ export default {
     }
 }
 </script>
-Footer
-© 2022 GitHub, Inc.
-</script>
 <template>
  <section v-if="showModal" class="text-gray-600 body-font relative">
         <form ref="form" @submit.prevent="sendEmail">
@@ -49,10 +46,10 @@ Footer
                         </button>
                     </div>
                     <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                    <a class="text-teal-300">info@uckert.dev</a>
-                    <p class="leading-normal my-5"> Erik Uckert
-                        <br> Wilhelm-Gottschalk-Strasse 6
-                        <br>14774 Brandenburg a. d. Havel
+                    <a class="text-teal-300">mail-placeholder</a>
+                    <p class="leading-normal my-5"> Name-placeholder
+                        <br> Adress 1-placeholder
+                        <br>Adress 2-placeholder
                     </p>
                     <span class="inline-flex">
                         <a class="text-gray-500">
