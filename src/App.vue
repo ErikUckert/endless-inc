@@ -8,6 +8,8 @@ import Footy from './components/Footy.vue'
 import TeamSection from './components/TeamSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import ProductSection from './components/ProductSection.vue'
+import ContactSection from './components/ContactSection.vue'
+import ContactModal from './components/ContactModal.vue'
 </script>
 
 <template>
@@ -15,6 +17,8 @@ import ProductSection from './components/ProductSection.vue'
   <NavBar></NavBar>
   <HeroPage></HeroPage>
   <ProductSection></ProductSection>
+  <ContactModal></ContactModal>
+  <ContactSection></ContactSection>
   <TeamSection></TeamSection>
   <AboutSection></AboutSection>
   <Footy></Footy>
