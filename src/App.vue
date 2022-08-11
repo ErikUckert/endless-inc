@@ -14,14 +14,8 @@ import ContactModal from './components/ContactModal.vue'
 
 <template>
 
-  <NavBar></NavBar>
+
   <HeroPage></HeroPage>
-  <ProductSection></ProductSection>
-  <ContactModal></ContactModal>
-  <ContactSection></ContactSection>
-  <TeamSection></TeamSection>
-  <AboutSection></AboutSection>
-  <Footy></Footy>
 
 
 </template>
@@ -33,6 +27,5 @@ import ContactModal from './components/ContactModal.vue'
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
