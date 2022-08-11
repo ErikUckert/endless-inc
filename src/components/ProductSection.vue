@@ -25,7 +25,7 @@
         <h5 class="text-lg font-bold mb-3">Printheads</h5>
         <p class="text-gray-500">
           We developed a patented printhead that allows you to print our
-          continuous fiber filamentens. Let’s talk about your usecase!
+          continuous fiber filaments. Let’s talk about your usecase!
         </p>
       </div>
 
