@@ -6,6 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '500': '500%',
+    },
   },
   plugins: [
     require('tailgrids/plugin'),
