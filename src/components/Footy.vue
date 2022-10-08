@@ -1,6 +1,6 @@
 <script></script>
 <template>
-  <div class="container my-24 px-6 mx-auto max-w-2xl" id="footy">
+  <div class="container mt-24 px-6 mx-auto max-w-2xl" id="footy">
     <div
       class="grid grid-cols-2 gap-6 sm:gap-6 sm:grid-cols-4 justify-items-center md:flex md:justify-between"
     >
@@ -32,16 +32,22 @@
   </div>
 
   <div class="container my-10 px-6 mx-auto" id="footy">
-    <ul
-      class="flex justify-center text-sm text-gray-500 dark:text-gray-400 my-20 sm:mt-10"
-    >
-      <li>
-        <a href="#" class="mr-4 hover:underline md:mr-6">Imprint</a>
-      </li>
-      <li>
-        <a href="#" class="mr-4 hover:underline md:mr-6">Privacy</a>
-      </li>
-    </ul>
+
+    <details class="open:bg-gray-300 duration-300">
+        <summary class="bg-inherit px-5 py-3 text-sm text-gray-500 dark:text-gray-400 cursor-pointer">Imprint</summary>
+        <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+            <p>Praesent posuere nisi vel diam congue varius. Praesent lacus nulla, congue nec rhoncus nec,
+                suscipit et enim. Donec ultrices nec arcu et pharetra.</p>
+        </div>
+    </details>
+    <details class="open:bg-gray-300 duration-300">
+        <summary class="bg-inherit px-5 py-3 text-sm text-gray-500 dark:text-gray-400 cursor-pointer">Privacy</summary>
+        <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
+            <p>Praesent posuere nisi vel diam congue varius. Praesent lacus nulla, congue nec rhoncus nec,
+                suscipit et enim. Donec ultrices nec arcu et pharetra.</p>
+        </div>
+    </details>
+    <br>
     <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
       >© 2022 <a href="" class="hover:underline">Endless Industries</a>
     </span>
