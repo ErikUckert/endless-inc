@@ -11,21 +11,53 @@ import ProductSection from './components/ProductSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import ContactModal from './components/ContactModal.vue'
 </script>
+<script>
+export default {
+  data() {
+    return {
+        showModal: false,
+        showContactSection: true,
+        contactSectionId: 'contact',
+        contactModalId: 'contactModal'
+    };
+  },
+    methods: {
+    scroll(id) {  
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+  }
+  }
+}
+</script>
 
 <template>
 
   <NavBar></NavBar>
   <HeroPage></HeroPage>
-  <ProductSection></ProductSection>
-  <ContactModal></ContactModal>
-  <ContactSection></ContactSection>
-  <TeamSection></TeamSection>
   <AboutSection></AboutSection>
+  <ProductSection></ProductSection>
+  <ContactModal
+    id="contactModal"
+    v-bind:showModal=this.showModal 
+    v-bind:showContactSection=this.showContactSection 
+    @close="this.showModal = false, 
+    this.showContactSection = true,
+    this.scroll(this.contactSectionId)"
+    >
+  </ContactModal>
+  <ContactSection 
+    id="contact"
+    v-bind:showModal=this.showModal 
+    v-bind:showContactSection=this.showContactSection
+    @show="this.showModal = true, 
+    this.showContactSection = false,
+    this.scroll(this.contactModalId)">
+  </ContactSection>
+  <TeamSection></TeamSection>
   <Footy></Footy>
-
-
 </template>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
