@@ -11,16 +11,16 @@ import ProductSection from './components/ProductSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import ContactModal from './components/ContactModal.vue'
 
-const showModal = false;
-const showContactSection = true;
-const contactSectionId = 'contact';
-const contactModalId = 'contactModal';
+const showModal = false
+const showContactSection = true
+const contactSectionId = 'contact'
+const contactModalId = 'contactModal'
 
 function scroll(id) {  
     document.getElementById(id).scrollIntoView({
       behavior: "smooth",
       block: "center"
-    });
+    })
   }
 </script>
 
@@ -33,8 +33,8 @@ function scroll(id) {
   <ProductSection></ProductSection>
   <ContactModal
     id="contactModal"
-    v-bind:showModal=showModal 
-    v-bind:showContactSection=showContactSection 
+    v-bind:showModal="showModal"
+    v-bind:showContactSection="showContactSection" 
     @close="showModal = false, 
     showContactSection = true,
     scroll(contactSectionId)"
@@ -42,8 +42,8 @@ function scroll(id) {
   </ContactModal>
   <ContactSection 
     id="contact"
-    v-bind:showModal=showModal 
-    v-bind:showContactSection=showContactSection
+    v-bind:showModal="showModal" 
+    v-bind:showContactSection="showContactSection"
     @show="showModal = true, 
     showContactSection = false,
     scroll(contactModalId)">
