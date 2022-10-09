@@ -11,26 +11,7 @@ import ProductSection from './components/ProductSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import ContactModal from './components/ContactModal.vue'
 </script>
-<script>
-export default {
-  data() {
-    return {
-        showModal: false,
-        showContactSection: true,
-        contactSectionId: 'contact',
-        contactModalId: 'contactModal'
-    };
-  },
-    methods: {
-    scroll(id) {  
-    document.getElementById(id).scrollIntoView({
-      behavior: "smooth",
-      block: "center"
-    });
-  }
-  }
-}
-</script>
+
 
 <template>
 
