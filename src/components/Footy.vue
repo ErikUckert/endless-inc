@@ -1,4 +1,13 @@
-<script></script>
+<script>
+import Imprint from './Imprint.vue'
+import Privacy from './Privacy.vue'
+export default {
+  components: {
+    Imprint,
+    Privacy
+  }
+}
+</script>
 <template>
   <div class="container mt-24 px-6 mx-auto max-w-2xl" id="footy">
     <div
@@ -36,15 +45,13 @@
     <details class="open:bg-gray-300 duration-300">
         <summary class="bg-inherit px-5 py-3 text-sm text-gray-500 dark:text-gray-400 cursor-pointer">Imprint</summary>
         <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-            <p>Praesent posuere nisi vel diam congue varius. Praesent lacus nulla, congue nec rhoncus nec,
-                suscipit et enim. Donec ultrices nec arcu et pharetra.</p>
+            <Imprint></Imprint>
         </div>
     </details>
     <details class="open:bg-gray-300 duration-300">
         <summary class="bg-inherit px-5 py-3 text-sm text-gray-500 dark:text-gray-400 cursor-pointer">Privacy</summary>
         <div class="bg-white px-5 py-3 border border-gray-300 text-sm font-light">
-            <p>Praesent posuere nisi vel diam congue varius. Praesent lacus nulla, congue nec rhoncus nec,
-                suscipit et enim. Donec ultrices nec arcu et pharetra.</p>
+          <Privacy></Privacy>
         </div>
     </details>
     <br>

@@ -8,7 +8,7 @@ export default {
 </script>
 <template>
  <section v-if="showModal" class="text-gray-600 body-font relative">
-        <form ref="form" @submit.prevent="sendEmail">
+        <form action="https://getform.io/f/77d9faa6-e191-4cb3-a65c-f0fd2b0bdec6" method="POST">
             <div class="container px-5 py-24 mx-auto">
                 <div class="flex flex-col text-center w-full mb-12">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Let's get in touch!</h1>
@@ -38,7 +38,7 @@ export default {
                         <input type="submit" value="Send" class="flex mx-auto text-white bg-teal-300 border-0 py-2 px-8 focus:outline-none hover:bg-teal-500 rounded text-lg">
                     </div>                  
                     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                        <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+                        <button type="submit" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
                         @click="$emit('close')">Go back
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>

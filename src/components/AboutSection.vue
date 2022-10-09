@@ -17,14 +17,10 @@ export default {};
             <div class="px-6 py-12 md:px-12">
               <h2 class="text-3xl font-bold mb-6 pb-2">About <span class="text-gray-500">ENDLESS INDUSTRIES</span></h2>
               <p class="text-gray-500 mb-6 pb-2">
-                Endless Industries is a start-up project at TU Berlin, which
-                successfully received "EXIST Forschungstransfer" funding. Using
-                the patented core technology, we produce fiber composites using
-                the FDM printing process and are currently developing an
-                exciting product for the orthopedic industry. We want to help
-                manufacturing companies to automate their fiber composite
-                production by providing printing systems and the right material
-                for the job.
+                Endless Industries is a TU Berlin spin-off receiving "EXIST
+                Forschungstransfer" funding. Our patented FDM process produces strong
+                fiber composite parts. We offer print heads and the right materials for
+                your job. Let's talk about your use case!
               </p>
             </div>
           </div>

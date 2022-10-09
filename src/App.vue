@@ -10,6 +10,7 @@ import AboutSection from './components/AboutSection.vue'
 import ProductSection from './components/ProductSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import ContactModal from './components/ContactModal.vue'
+
 </script>
 <script>
 export default {
@@ -36,6 +37,7 @@ export default {
 
   <NavBar></NavBar>
   <HeroPage></HeroPage>
+  <AboutSection></AboutSection>
   <ProductSection></ProductSection>
   <ContactModal
     id="contactModal"
@@ -51,11 +53,10 @@ export default {
     v-bind:showModal=this.showModal 
     v-bind:showContactSection=this.showContactSection
     @show="this.showModal = true, 
-    this.showContactSection = false
-   ">
+    this.showContactSection = false,
+    this.scroll(this.contactModalId)">
   </ContactSection>
   <TeamSection></TeamSection>
-  <AboutSection></AboutSection>
   <Footy></Footy>
 </template>
 <style>
