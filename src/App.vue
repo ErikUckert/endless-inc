@@ -11,10 +11,10 @@ import ProductSection from './components/ProductSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import ContactModal from './components/ContactModal.vue'
 
-const showModal = false
-const showContactSection = true
-const contactSectionId = 'contact'
-const contactModalId = 'contactModal'
+showModal = false
+showContactSection = true
+contactSectionId = 'contact'
+contactModalId = 'contactModal'
 
 function scroll(id) {  
     document.getElementById(id).scrollIntoView({
