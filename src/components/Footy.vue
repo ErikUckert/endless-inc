@@ -10,7 +10,7 @@ export default {
 </script>
 <template>
   <div class="container mt-24 px-6 mx-auto max-w-2xl" id="footy">
-<img src="../assets/BMWK_Exist_Förder_lang_RGB.svg" alt="">
+<img src="../assets/BMWK.svg" alt="">
   </div>
 
   <div class="container my-10 px-6 mx-auto" id="footy">
