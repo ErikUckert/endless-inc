@@ -1,23 +1,3 @@
-<script>
-export default {
-  data() {
-    return {
-        showModal: false,
-        showContactSection: true,
-        contactSectionId: 'contact',
-        contactModalId: 'contactModal'
-    };
-  },
-    methods: {
-    scroll(id) {  
-    document.getElementById(id).scrollIntoView({
-      behavior: "smooth",
-      block: "center"
-    });
-  }
-  }
-}
-</script>
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
@@ -30,6 +10,18 @@ import AboutSection from './components/AboutSection.vue'
 import ProductSection from './components/ProductSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import ContactModal from './components/ContactModal.vue'
+
+const showModal = false;
+const showContactSection = true;
+const contactSectionId = 'contact';
+const contactModalId = 'contactModal';
+
+function scroll(id) {  
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+  }
 
 </script>
 
