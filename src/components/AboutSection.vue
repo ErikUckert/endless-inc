@@ -8,7 +8,7 @@ export default {};
         <div class="flex flex-wrap items-stretch">
           <div class="basis-auto block lg:flex w-full lg:w-6/12 xl:w-4/12">
             <img
-              src="../assets/shaft.png"
+              src="../assets/carbon_fiber4.jpg"
               alt="Trendy Pants and Shoes"
               class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg object-cover"
             />

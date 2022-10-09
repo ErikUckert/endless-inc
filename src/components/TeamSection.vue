@@ -8,13 +8,11 @@
   <!-- Section: Design Block -->
   <section class="mb-32 text-gray-800 text-center">
     <h2 class="text-3xl font-bold mb-12">Meet the <span class="text-gray-500">TEAM</span></h2>
-
     <div class="grid md:grid-cols-3 gap-x-6 lg:gap-x-12">
       <div class="mb-6 lg:mb-0">
         <div class="bg-white block rounded-lg shadow-lg">
           <div class="relative overflow-hidden bg-no-repeat bg-cover">
             <img src="../assets/team_mathias.png" class="w-full rounded-t-lg" />
-
             <svg class="absolute" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"
               style="left:0; bottom: -1;">
               <path stroke="white" fill="#fff"
@@ -27,10 +25,14 @@
             <h5 class="text-lg font-bold mb-4">MATHIAS CZASNY</h5>
             <p class="text-gray-500 mb-4">Project lead & technology</p>
             <ul class="list-inside flex mx-auto justify-center">
+            <a href="https://www.linkedin.com/in/mathias-czasny-6bb508248"
+              target="_blank"
+              rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" 
               width="24" height="24" viewBox="0 0 24 24">
               <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
               </svg>
+            </a>
             </ul>
           </div>
         </div>
@@ -80,7 +82,10 @@
             <h5 class="text-lg font-bold mb-4">STEPHAN KÖRBER</h5>
             <p class="text-gray-500 mb-4">Business development & finances</p>
             <ul class="list-inside flex mx-auto justify-center">
-              <a href="#!" class="px-2">
+              <a href="https://www.linkedin.com/in/stephan-k%C3%B6rber-77810a111/"
+                class="px-2"
+                target="_blank"
+                rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" 
               width="24" height="24" viewBox="0 0 24 24">
               <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
