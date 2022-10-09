@@ -10,6 +10,18 @@ import AboutSection from './components/AboutSection.vue'
 import ProductSection from './components/ProductSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import ContactModal from './components/ContactModal.vue'
+
+const showModal = false;
+const showContactSection = true;
+const contactSectionId = 'contact';
+const contactModalId = 'contactModal';
+
+function scroll(id) {  
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+      block: "center"
+    });
+  }
 </script>
 
 
@@ -21,20 +33,20 @@ import ContactModal from './components/ContactModal.vue'
   <ProductSection></ProductSection>
   <ContactModal
     id="contactModal"
-    v-bind:showModal=this.showModal 
-    v-bind:showContactSection=this.showContactSection 
-    @close="this.showModal = false, 
-    this.showContactSection = true,
-    this.scroll(this.contactSectionId)"
+    v-bind:showModal=showModal 
+    v-bind:showContactSection=showContactSection 
+    @close="showModal = false, 
+    showContactSection = true,
+    scroll(contactSectionId)"
     >
   </ContactModal>
   <ContactSection 
     id="contact"
-    v-bind:showModal=this.showModal 
-    v-bind:showContactSection=this.showContactSection
-    @show="this.showModal = true, 
-    this.showContactSection = false,
-    this.scroll(this.contactModalId)">
+    v-bind:showModal=showModal 
+    v-bind:showContactSection=showContactSection
+    @show="showModal = true, 
+    showContactSection = false,
+    scroll(contactModalId)">
   </ContactSection>
   <TeamSection></TeamSection>
   <Footy></Footy>
